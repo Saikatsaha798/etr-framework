@@ -7,11 +7,10 @@
     <parent>
         <groupId>com.etr</groupId>
         <artifactId>etr-framework</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
     <artifactId>etr-common</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <description>Common pojos, objects</description>
 
     <dependencies>
