@@ -10,8 +10,8 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>etr-common</artifactId>
-    <description>Common pojos, objects</description>
+    <artifactId>etr-common-kafka</artifactId>
+    <description>Common config and objects related to Kafka</description>
 
     <dependencies>
         <dependency>
@@ -19,6 +19,13 @@
             <artifactId>lombok</artifactId>
             <version>1.18.42</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+            <version>4.0.2</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
