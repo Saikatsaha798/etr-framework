@@ -3,7 +3,7 @@ package com.java.producer;
 /**
  * The interface Kafka producer.
  */
-public interface KafkaProducer {
+public interface KafkaProducer<T> {
 
     /**
      * Publish.
@@ -12,5 +12,5 @@ public interface KafkaProducer {
      * @param key     the key
      * @param message the message
      */
-    void publish(String topic, String key, Object message);
+    void publish(String topic, String key, T message);
 }
