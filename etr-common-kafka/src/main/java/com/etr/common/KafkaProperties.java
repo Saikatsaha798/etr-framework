@@ -1,4 +1,4 @@
-package com.java.common;
+package com.etr.common;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

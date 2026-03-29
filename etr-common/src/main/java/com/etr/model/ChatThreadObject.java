@@ -1,4 +1,4 @@
-package com.java.model;
+package com.etr.model;
 
 import lombok.Data;
 

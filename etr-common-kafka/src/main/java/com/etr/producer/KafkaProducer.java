@@ -1,4 +1,4 @@
-package com.java.producer;
+package com.etr.producer;
 
 /**
  * The interface Kafka producer.
