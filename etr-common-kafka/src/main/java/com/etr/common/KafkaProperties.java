@@ -10,5 +10,5 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 public class KafkaProperties {
 
-    private String topicMessageConversation = "messsage-conversation";
+    private String messageConversation;
 }
