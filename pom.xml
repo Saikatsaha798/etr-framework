@@ -34,6 +34,7 @@
     <modules>
         <module>etr-common</module>
         <module>etr-common-kafka</module>
+        <module>etr-common-exception</module>
     </modules>
 
 </project>
