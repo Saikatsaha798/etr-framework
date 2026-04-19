@@ -12,17 +12,17 @@ public class MessageObject {
     /**
      * The Message id.
      */
-    String messageId;
+    private String messageId;
     /**
      * The Sent at.
      */
-    Instant sentAt;
+    private Instant sentAt;
     /**
      * The Sender id.
      */
-    String senderId;
+    private String senderId;
     /**
      * The Text.
      */
-    String text;
+    private String text;
 }

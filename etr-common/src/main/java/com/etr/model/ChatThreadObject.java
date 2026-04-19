@@ -12,9 +12,9 @@ public class ChatThreadObject {
     /**
      * The Owner user id.
      */
-    String ownerUserId;
+    private String ownerUserId;
     /**
      * The Chats.
      */
-    Map<String, ChatObject> chats;
+    private Map<String, ChatObject> chats;
 }

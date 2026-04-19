@@ -12,13 +12,13 @@ public class ChatObject {
     /**
      * The Chat id.
      */
-    String chatId;
+    private String chatId;
     /**
      * The Other user id.
      */
-    String otherUserId;
+    private String otherUserId;
     /**
      * The Messages.
      */
-    List<MessageObject> messages;
+    private List<MessageObject> messages;
 }
